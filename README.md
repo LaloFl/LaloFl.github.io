@@ -10,3 +10,5 @@ Para muchos microcontroladores, agregar entrada de audio es fácil con uno de nu
 En lugar de una salida analógica, hay tres pines digitales: Reloj, Datos y Reloj izquierda-derecha (selección de palabra). Cuando se conecta a su microcontrolador/computadora, el 'Controlador I2S' controlará los pines de reloj y selección de palabras a alta frecuencia y leerá los datos del micrófono. ¡No se requiere conversión analógica!
 
 El micrófono es un único elemento mono. Puede seleccionar si desea que esté en el canal izquierdo o derecho conectando el pin Seleccionar a la alimentación o a tierra. Si necesitas estéreo, ¡toma dos micrófonos! Puede configurarlos para que sean estéreo compartiendo las líneas de reloj, WS y datos, pero teniendo una con Selección a tierra y otra con Selección a alto voltaje.
+
+![RPP conn](https://1.bp.blogspot.com/-ls0rgRnRxzw/YLHUHO6O1pI/AAAAAAAABzE/M2zkb_EMxwkDHexY1G9g_DiKxuhbyZbgACLcBGAsYHQ/s740/Create%2Ba%2BUSB%2BMicrophone%2Bwith%2Bthe%2BRaspberry%2BPi%2BPico.jpg)
